@@ -1,0 +1,56 @@
+/* PokemonInfo.css */
+.pokemon-info-container {
+  padding: 1rem;
+}
+
+.pokemon-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Establecer la posición relativa para que el elemento hijo tenga posición absoluta dentro */
+}
+
+.types {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.additional-info {
+  margin-top: 2rem;
+  border-top: 2px solid #ccc;
+  padding-top: 2rem;
+}
+
+.info-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.additional-info h3 {
+  font-size: 15px;
+}
+
+.additional-info h2 {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+
+.shiny-image {
+
+  position: absolute;
+  bottom: 0; /* Colocar en la esquina inferior */
+  left: 0; /* Alinear a la izquierda */
+  width: 35%; /* Ajustar el tamaño según tus preferencias */
+  background-color: transparent;
+  border: none;
+}
