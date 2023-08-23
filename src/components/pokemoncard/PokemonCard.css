@@ -1,0 +1,17 @@
+.pokemon-cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea cuando no caben en la actual */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.pokemon-card img{
+    width: 100%;
+}
